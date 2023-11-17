@@ -1,0 +1,135 @@
+.container{
+    height: 500px;
+    width: 1000px;
+    border: 2px solid black;
+    background-color:aquamarine;
+    margin: 3% auto;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+}
+p{
+    text-align: center;
+    font-weight:normal;
+    font-size: large;
+}
+.box{
+    height: 320px;
+    width: 900px;
+    border: 2px solid black;
+    background-color:aquamarine;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 4%;
+}
+p{
+    text-align: right;
+    margin-right: 400px;
+    margin-top: 25px;
+}
+
+.inner-box{
+    height: 170px;
+    width: 150px;
+    border: 2px solid black;
+    background-color:aqua;
+    margin-left: 80px;
+    margin-top: -220px;
+}
+.circle {
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/261/864/small/convention-center.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+.inner-box1{
+    height: 20px;
+    width: 330px;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 520px;
+    margin-top: -220px;
+}
+.inner-box2{
+    height: 20px;
+    width: 330px;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.inner-box3{
+    height: 20px;
+    width: 330px;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.inner-box4{
+    height: 20px;
+    width: 130px;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 520px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.inner-box5{
+    height: 20px;
+    width: 330px;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.inner-box6{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    background-color:rgb(85, 190, 85);
+    margin-left: 450px;
+    margin-top: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.inner-box7{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    background-color:rgb(164, 23, 23);
+    margin-left: 650px;
+    margin-top: -34px;
+    text-align:center;
+    font-weight: bold;
+    font-size: large;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 1cm auto;
+    }
+    .box,
+    .inner-box,
+    .circle {
+        width: 100%;
+        max-width: none;
+        margin: 4% 0;
+    }
+    p{
+        margin-right: 0;
+    }
+}
